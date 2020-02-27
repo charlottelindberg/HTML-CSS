@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+    body {
+    background-color: hotpink;
+    }
+    
+    .caption {
+    /* flex: 1 1 100%; */
+    flex: unset;
+    }
+   } /* afblijven!!!! */

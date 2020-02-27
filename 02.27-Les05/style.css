@@ -1,20 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 body, div {
-    padding: 20px;
     border: 3px dotted blue;
   }
 
+.header {
+    border-top: 15px solid purple;
+    display: flex;
+}
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.flex {
+    display: flex;
+}
 div, body, .header, .quote, .foto, .whiteblok, .greyblock, .footer {
     outline: 1px solid red;
   }
 
+.greyblock {
+    flex-basis: 33%;
+    padding: 2px;
+    display: flex;
+}
+.slider {
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 300px;
+    background-image: url("http://placekitten.com/890/300");
+ background-size: cover;
+ background-position: center;
+ display: flex;
+
+}
+.caption {
+    background-color: black;
+    color: white;
+    flex: 0 1 50%;
+    padding: 1rem;
+       
+}
 .inline, .doublein {
     outline: 1px solid green;
     padding: 5px;
     margin: 10px;
+    display: flex;
   }
 
-span {
+.whiteblok, .whitebloktop {
+    display: flex;
+  }
+
+.whitebloktop {
+    flex-basis: 33%;
+    padding: 2px;
+}
+
+.columns {
     outline: 1px solid green;
     padding: 5px;
     margin: 10px;
+    flex-basis: 25%;
+    padding: 2px;
 }
