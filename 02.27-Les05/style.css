@@ -1,0 +1,20 @@
+body, div {
+    padding: 20px;
+    border: 3px dotted blue;
+  }
+
+div, body, .header, .quote, .foto, .whiteblok, .greyblock, .footer {
+    outline: 1px solid red;
+  }
+
+.inline, .doublein {
+    outline: 1px solid green;
+    padding: 5px;
+    margin: 10px;
+  }
+
+span {
+    outline: 1px solid green;
+    padding: 5px;
+    margin: 10px;
+}

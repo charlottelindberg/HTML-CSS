@@ -1,0 +1,46 @@
+/* Styles for the fantastic bunny adventures */
+
+html {
+    height: auto;
+    width: auto;
+    background-color: #B34273;
+    overflow: auto;
+}
+
+body {
+    width: 96%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: #FFABCF;
+    text-align: center;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+}
+
+h3 {
+    margin: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 20%;
+    background: linear-gradient(#ff0080, #FF5EA4, #ff66a1);
+    float: left;
+}

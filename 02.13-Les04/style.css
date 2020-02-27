@@ -1,0 +1,79 @@
+/* body 
+    background-color: pink;
+ */
+
+/* ul 
+    padding: 10px;
+    width: 80vw;
+    border: 1px solid red;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* height: 90vh;
+    /* align-items: center;
+    /* justify-content: center; */
+    /* align-content: flex-end; */
+    /* justify-content: flex-start; */
+/* 
+
+li 
+    padding: 10px;
+    background-color: seagreen;
+    margin: 5px;
+    color: seashell;
+    font-size: 2rem;
+    /* flex-grow: 1; */
+
+
+
+/* .grow 
+    background-color: red;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.wrapper {
+    border: 1px solid red;
+    width: 80%;
+    background-color: wheat;
+    margin-top: 5vh auto 0 auto;
+    display: flex;
+}
+main{
+    background-color: pink;
+    flex-grow: 2;
+}
+aside{
+    background-color: yellowgreen;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+   .wrapper {
+       /* display: block; */
+       /* display: flex; */
+
+       flex-direction: column;
+   }
+   main {
+       order: 1;
+   }
+   aside {
+       order: 2;
+   }
+}
+

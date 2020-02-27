@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #bb99a2;
+}
+
+.container {
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 1%;
+    background-color: #A83C5E;
+    border: 2px;
+}
+
+.container01 {
+    background-color: #A83C5E;
+    color: white;
+    /* height: 50px; */
+    padding: 15px;
+}
+
+.header {
+    background-color: #C35174;
+    color: white;
+    padding: 15px;
+}
+
+.container02 {
+    background-color: #CF90A4;
+}
+
+.footer {
+    background-color: #A83C5E;
+    color: white;
+    width: 50%;
+    margin: 0px auto;
+}
