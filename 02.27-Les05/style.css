@@ -8,12 +8,13 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 body, div {
     border: 3px dotted blue;
   }
 
 .header {
-    border-top: 15px solid purple;
+    border-top: 15px solid #894aa3;
     display: flex;
 }
 nav {
@@ -23,8 +24,17 @@ nav {
     flex-wrap: wrap;
     align-items: flex-end;
 }
+.quote {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ebebeb;
+}
 .flex {
     display: flex;
+}
+.foto {
+    background-color: #333333;
 }
 div, body, .header, .quote, .foto, .whiteblok, .greyblock, .footer {
     outline: 1px solid red;
@@ -34,29 +44,39 @@ div, body, .header, .quote, .foto, .whiteblok, .greyblock, .footer {
     flex-basis: 33%;
     padding: 2px;
     display: flex;
+    background-color: #ebebeb;
 }
 .slider {
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 300px;
     background-image: url("http://placekitten.com/890/300");
- background-size: cover;
- background-position: center;
- display: flex;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 
 }
 .caption {
     background-color: black;
     color: white;
     flex: 0 1 50%;
-    padding: 1rem;
-       
+    padding: 1rem;   
 }
+
+.whitebloktop {
+    padding: 2px;
+}
+
+.thumb {
+    padding-right: 5px;
+}
+
 .inline, .doublein {
     outline: 1px solid green;
     padding: 5px;
     margin: 10px;
-    display: flex;
+    /* display: flex; */
+    background-color: white;
   }
 
 .whiteblok, .whitebloktop {
@@ -74,4 +94,9 @@ div, body, .header, .quote, .foto, .whiteblok, .greyblock, .footer {
     margin: 10px;
     flex-basis: 25%;
     padding: 2px;
+}
+
+.footer {
+    background-color: #444444;
+    color: white;
 }
