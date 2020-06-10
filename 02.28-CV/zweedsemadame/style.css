@@ -41,7 +41,7 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.intro {
+.intro, .beginning {
   padding: 15px;
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 400;
@@ -62,6 +62,14 @@ body {
 }
 
 .two-columns h4 {
+  color: #FF6B00;
+}
+
+.beginning h4 {
+  color: #FF6B00;
+}
+
+.three-columns h4 {
   color: #FF6B00;
 }
 
